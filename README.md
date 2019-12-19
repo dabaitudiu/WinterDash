@@ -10,6 +10,7 @@ LeetCode intensified Dec 16 - Jan.1
 137这种 deep copy, HashMap通吃不要太爽
 
 #### Day 3 - Dec 18
+```
 12:28 199 Finished. 佛了 做完第一题就不想做了
 12:54 198 Finished. 这个答案写的好，带着一步步分析dp
 13:27 197,151 Finished. gg 吃了没文化的亏
@@ -20,4 +21,18 @@ LeetCode intensified Dec 16 - Jan.1
 16:02 159 Finished. 滑窗经典，大佬np。[大佬链接](http://www.noteanddata.com/leetcode-159-Longest-Substring-with-At-Most-Two-Distinct-Characters-java-sliding-windows-solution-note.html)
 21:47 164 Failed. 弃坑.这题也太坑了
 受不了了 这过了150之后一个个都啥破题。。复习trello 
+0:00 Search Lv0 (507,50,704,475) Finished.
+```
+
+#### Day 4 - Dec 19
+```
+要被lc垃圾题折磨疯了 浪费时间
+13:58 Review:215 好好学习了一下quickselect 太姜了。。
+14:10 Review:1046 pq 秒了
+14:19 我佛了 怎么突然学不进去了
+14:54 Review:969 翻饼 老江湖了
+15:13 Review:702 扩展边界Binarysearch 太不细心了
+[Search Lv1 Finished.]
+15:21 Review:15 3Sum, 老题了，第二遍才AC，长点心吧。。
+个人战争太容易懈怠了。23:38 今天是废了.
 
