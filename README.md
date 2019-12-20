@@ -44,11 +44,11 @@ LeetCode intensified Dec 16 - Jan.1
 12:20 #159 Review. 前天刚做完 
 12:49 #239 sliding window maximum. 可以 单调队列 继续背诵并默写。
 13:21 #340 k different , 2 different 升级版，不过方法都一样的。。
-15:14 #424 这题可是真的不容易想，可能明天就忘了咋做的了。核心思想是:1.假设没有                  k limit， 则return s.length() - maxFreq of the chars in s
-           2. 有k limit, 当滑窗
-           (right-left+1) - maxFreq of chars in sub_s > k时 (最多改k个)
-           缩小范围，left++; else right++,同时更新最大频率。
+15:14 #424 这题可是真的不容易想，可能明天就忘了咋做的了。核心思想是:
+           1.假设没有 k limit， 则return s.length() - maxFreq of the chars in s
+           2.有k limit, 当滑窗 (right-left+1) - maxFreq of chars in sub_s > k时 (最多改k个)
+             缩小范围，left++; else right++,同时更新最大频率。
            3. 边界条件 right < n 即可，因为max一定会被记录，之后当right 到边界之后，left只会不断缩小范围，不可能再更新max
-
+16:14 #480 Sliding Window Media. 这个tag是真的难，每道看答案都得看半天才看懂，哭了。
 
 ```
