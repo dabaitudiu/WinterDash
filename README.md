@@ -5,9 +5,11 @@ LeetCode intensified Dec 16 - Jan.1
 116-129 (14)
 
 #### Day 2 - Dec 16
+```
 130 - 138, 581 (10) 1:26勉强完成 <br>
 130 我觉得自己写的还可以，贴了：[130 bfs super concise](https://leetcode.com/problems/surrounded-regions/discuss/453448/java-concise-bfs)<br>
 137这种 deep copy, HashMap通吃不要太爽
+```
 
 #### Day 3 - Dec 17
 ```
@@ -39,7 +41,7 @@ LeetCode intensified Dec 16 - Jan.1
 #### Day 5 - Dec 19
 ```
 今天决定刷sliding window..
-~10.30： #3 秒
+10.30 #3  直接秒
 12:06 #76 不愧是hard..真tm难。答案用array的 吊打自己用的双hashmap，【#76】重点题
 12:20 #159 Review. 前天刚做完 
 12:49 #239 sliding window maximum. 可以 单调队列 继续背诵并默写。
@@ -49,6 +51,17 @@ LeetCode intensified Dec 16 - Jan.1
            2.有k limit, 当滑窗 (right-left+1) - maxFreq of chars in sub_s > k时 (最多改k个)
              缩小范围，left++; else right++,同时更新最大频率。
            3. 边界条件 right < n 即可，因为max一定会被记录，之后当right 到边界之后，left只会不断缩小范围，不可能再更新max
-16:14 #480 Sliding Window Media. 这个tag是真的难，每道看答案都得看半天才看懂，哭了。
+16:14 #480 Sliding Window Media. 这个tag是真的难，每道看答案都得看半天才看懂,唉
 
+```
+#### Day 6 - Dec 21
+垃圾ups毁我一天 不等了 md AMAZON MDZZ..
+```
+13:45 #567 随手一个26 array 就92%了？ 这题8太行啊。。
+15:30 #727 真滴难。最初方法用sliding window只9%. 后来参考[解答链接](https://leetcode.com/problems/minimum-window-subsequence/discuss/109356/JAVA-two-pointer-solution-(12ms-beat-100)-with-explaination)才67%. 核心思想是two pointers, right pointer 一直向右移动知道最后一个t的所有char全被匹配，然后再从right往前check
+15:43 #979 最长波动数列。这个答案非常巧，O(1) space，keep inc, dec variable即可。
+16:19 #200 Number of Islands Review.
+17:00 #168 这么个菜鸡题我竟然做了这么长时间。。DISHONORED.....
+17:17 #169 O(1)space的就不看了 摩尔投票法，会写了也不会解释
+17:24 #171 秒了
 ```
