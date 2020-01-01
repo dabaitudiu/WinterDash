@@ -102,4 +102,21 @@ Facebook TAG:
 15:13 #238 两遍遍历，记录除自己外的左乘积和右成绩，最后把二者相乘
 15:57 #253 会议室allocate 这是个经典题。高妙的咱也不求了，就简单的minHeap了
 17:20 #269 Alien Dictionary 这题可太难了。。可能是我要背的题里最难背的了。【现已加入每日默写套餐】
-``
+```
+
+#### Day 11 - Dec 30
+```
+14:00 #270 二叉树查找
+14:58 #273 Integer to English Words
+15:30 #278 二分
+17:11 #282 硬仗啊。。Expression Add Operators 【现已加入每日默写套餐】
+17:44 #297 老题 iterative seralize*deserialize tree in level-order.
+```
+
+#### Day 12 - Dec 31
+```
+14:40 #301 Remove Invalid Parentheses. 看的huahua的视频解答。DFS
+15:53 #221 Maximal Square. DP tricks 极致
+16:15 #304 Square Sum. 还是看的花花的解答，221解法
+
+```
