@@ -1,5 +1,5 @@
 # WinterDash
-LeetCode intensified Dec 16 - Jan.1
+LeetCode intensified 
 
 #### Day 1 - Dec 15
 116-129 (14)
@@ -118,5 +118,17 @@ Facebook TAG:
 14:40 #301 Remove Invalid Parentheses. 看的huahua的视频解答。DFS
 15:53 #221 Maximal Square. DP tricks 极致
 16:15 #304 Square Sum. 还是看的花花的解答，221解法
+16:58 #340 Review. 滑窗的一道题
+17:11 #349 简单hashset
+17:20 #415 string加法，跟linkedlist 加法一个意思，秒了
 
+```
+
+#### Day 13 - Jan 3
+```
+12:00 438. Find All Anagrams in a String. 滑窗，用的76的套路，简化了一下
+13:30 523. Continuous Subarray Sum. 这个题坑挺多的，但参考的
+https://buptwc.com/2018/07/10/Leetcode-523-Continuous-Subarray-Sum/ 写的很好
+13:41 543. Review: Diameter of Binary Tree, 递归，iterative都写了
+15:36 560. 这题和523有相似之处，只不过因为要count,把hashset换成map
 ```
