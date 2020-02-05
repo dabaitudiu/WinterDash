@@ -132,3 +132,107 @@ https://buptwc.com/2018/07/10/Leetcode-523-Continuous-Subarray-Sum/ 写的很好
 13:41 543. Review: Diameter of Binary Tree, 递归，iterative都写了
 15:36 560. 这题和523有相似之处，只不过因为要count,把hashset换成map
 ```
+
+#### Day 14 - Jan 4
+```
+12:28 #621 Task Scheduler. 两种方法，易理解的pq, 难理解的数学公式
+13:10 #636 Stack思想 题不错
+13:22 #680 Valid Palindrome II. 方法真简单，可惜自己想不出来:(
+14:14 #53  Maximum Subarray Review. 
+16:25 #721 Accounts Merge. Union-Find做的，这题还有别的方法，实在不想搞了
+contest 170 第三题搞死我了
+```
+
+#### Day 15 - Jan 5
+```
+#863 All Nodes Distance K in Binary Tree
+#824 Goat Latin 这题 这也配fb tag?
+```
+
+#### Day 16 - Jan 6
+```
+1312. Mimimum Insertion Steps to Make a String Palindrome
+      这个题还是按花花的top-down好理解，java code注意额外定义dp数组，避免额外计算
+953. 这小破题做了这么长时间 真是没脸了
+986. Interval List Intersections. Priority Queue莽过了，但肯定是不行的.
+     嗯。用了two pointer之后提升飞速
+1249. Minimum Remove to Make Valid Parentheses. 又是括号。。万变不离其宗。stack 脑子灵活点啊。。
+```
+
+#### Part 1 - Jan 7,8,9,10,11,12
+```
+重新开始刷trello..
+<LinkedList>
+[Lv0] 237, 203, 83
+[Lv1] 19, 206, 234
+[LV2] 876, 24, 143
+[Lv3] 160, 142, 21
+[Lv4] 148, 2, 445, 82
+[Lv5] 92:这个理解的不太好， 25:这题还不太熟 , 430
+[Lv6] 61:坑点多 找好edge case,146,706,23
+Finished
+```
+
+#### Jan 11
+```
+147: Insertion Sort List
+https://leetcode.com/problems/insertion-sort-list/discuss/190913/Java-Python-with-Explanations
+     先找异常数，再从头遍历找插入位置
+     大指针从头遍历到尾，维持前部序列正确排序
+150: Evaluate Reverse Polish Notation
+     Stack秒了，无难度
+241: 递归典型题 关键点是用 【运算符号】 作分割。由于同一个string可能有多个返回值，
+     所以recurvise 函数的返回值也应该是 List. 
+
+```
+#### Jan 12
+```
+146: LRU Cache 果不其然啥都忘了. https://leetcode-cn.com/problems/lru-cache/solution/lru-ce-lue-xiang-jie-he-shi-xian-by-labuladong/ 这个讲解好。看完一条过
+10:  Regular Expression Matching. 终于把这个耽搁n年的dp做了。真难理解
+```
+
+#### Jan 13
+```
+706. Design HashMap. 这道题还是很有意义的
+23.  Merge k Sorted Lists. 嗯.又复习了一下
+477. Total Hamming Distance. 只能说 这题很巧 我自己是想不出来
+473. Matchsticks to Square. 数列均匀分组问题. dfs妙啊..
+235. Lowest Common Ancestor of a Binary Search Tree. 这题竟然秒了，不容易啊
+LinkedList trello 刷完了
+[Lv 0] 104, 110, 543
+
+```
+
+#### Jan 14
+```
+New:
+695. Max Area of Island. 跟#of islands差不多 反正就是dfs，不过因为要查个数，把dfs设为int
+402. Remove K Digits. 车上看过思路了 吭哧半天也还没做出来. 用Stack解决
+230. Kth Smallest Element in a BST. in-order traveral 直接秒
+277. Find the Celebrity. 方法巧啊，直接遍历一遍就行
+328. Odd Even Linked List. 。。这题不配Medium 秒了
+
+Old: Tree Tag
+[Lv1] 872, 94, 897, 114
+[Lv2] 105. Construct Binary Tree from Preorder and Inorder Traversal
+      这是个好题 改天再做一遍
+      889.  Construct Binary Tree from Preorder and Postorder Traversal
+      也是个狠题..用Arrays.copyOfRange吧。。好理解
+
+```
+
+#### Jan 17
+```
+210. Course Schedule II. Topological sort 经典题
+[LV 2] 173. Binary Search Tree Iterator. 第n遍了..把普通inorder分解到各个function里。。
+       951. Flip Equivalent Binary Trees. 递归精髓。可惜自己没想出来
+
+```
+
+#### Jan 25
+Weekly Contest
+
+#### Jan 27
+```
+1334. Find the City With the Smallest Number of Neighbors at a Threshold Distance. priority queue比较考思维逻辑。大致思路是构建每个vertice到其他vertice的距离的双重hashmap，遍历每个顶点，从这些顶点尽可能多的到达其他顶点，记录数量。之后选择最小的到达数量。因为i是按顺序遍历的 所以只要保证count <= min时就更新，就能保证相同num时取最大i
+```
